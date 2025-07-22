@@ -1,2 +1,2 @@
-# Toilet Monkey Chat
-This is a chatroom themed on monkeys that come from toilets.
+# JoeyGC Chat
+This is a chatroom themed on batteries and turtles.

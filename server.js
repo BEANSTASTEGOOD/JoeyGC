@@ -54,7 +54,7 @@ function getRandomRank() {
     "STINKY",
     "BATTERY",
     "TURKEY",
-    "T̾O̾I̾L̾E̾T̾ ̾M̾O̾N̾K̾E̾Y̾"
+    "TURTLE"
   ];
   return ranks[Math.floor(Math.random() * ranks.length)];
 }
@@ -429,7 +429,7 @@ if (msg.startsWith("/milk ")) {
           return;
         }
 
-        if (msg.startsWith("/loic ")) {
+        if (msg.startsWith("/like ")) {
           const first = msg.split(" ")[1];
           const second = msg.split(" ")[2];
           broadcast({
@@ -819,9 +819,9 @@ Never gonna tell a lie and hurt you!`,
           }
         }
 
-        // === /toiletmonkey
-        if (msg.startsWith("/toiletmonkey")) {
-          const zalgo = "T̷̡͓͕̮̩̅̈́̇͋͂̽͒̈́̔H̶̢̤̻̺̮̙̫͍͍͍̋́͒͌͐̐͒́̚͝E̶̛͎̰̤͍̺̬̞̬͙̫͐̒̿̈́͒̐̽͗͘ ̵̛̛̛̲̬̘͕̙͔͍̩̾͂͐̈́̅͛̚̚ͅȚ̸̛̺̯͉̼̺͂͋̿͌͌̓͋Ö̵̩̝̗̫̝͎͎͎́̈́̅̈́̓͐͘ͅI̶̛̛͇̺̩̩̤̼͈̼̋͂̑̔͑̎̓͘L̴̯̻͎̤͎̙͉̹͙̈́̌͒̐̐͌͊̈́͜E̴̡̹͈̼̪͓͉̹͇͐͋̍̀͋̇̽͐͘̚T̴̡̥͓̙̪͚͍͙̳͊̍̅̎͂́̾̀͜͝ ̷̛͖̟̞͙͕̓͌́́̎̅͆͆̚M̴̡͍͙̲͈̤͈͎͚̼̄̋̋̎́̈́͒͊O̴̞͇̮̳̦͖͎̘͛̈́̄̐̎̐̏̕͝Ň̴͓͙̝̹̻̅̇͋̈́̀̒̓͌K̴̡͈͇̬͙̯̤̼͌̓̎̓͗̐͘͝͝Ë̷̜̯͍͇́̀̓̐̒͋̓̀̄͝Y̶̦͍̗͉̜͊͊̆̐̌̏͛̎ ̴̲̰̘̯̲̲̐̇̎̿̿̍͑̚͘͠Ȟ̵̢̪̱̙̍͒͆͒͂̇͆̚͠A̵̡̰̲̬͈͈͎͕̹̯̍̈́̈́̄͌͂͐̚S̸͈̙͙̞̥̈́̇͊́́̅̀͊̔͠ ̸̱͙̙̮̮̹̞̍̐̇̾̿̄͘͝͝B̴̛̦̮̖͙͕̩̫̋̿͂̍̌̿͜͠Ë̵̝̬͎̤́̎̈́͑̿͂̒̄̎͘͜Ę̶͇͖͚̞͕̹͓̫̥̐͌̑̈́̈́̈́̚̚͝N̵̛̲͉̹̟̆̃͗͗͌̾̾͜ ̸͙͕͎͙͚̤̳̦͉̓̎̅͆̓̇͌͋̓̕Ȁ̸̢̺͚̘͇̰͍̖͙̓̈́̿̋̐̐W̶̖̹̪̮̩͓̞̱̟̐͊̽͂̈́̕͠ͅÄ̶̡̛̱͚̱̹͓͍̤̫́̈́̐̅͐͐̓̿̚K̴̡̺̝̬͉̫̗̗̲̘̐̓͌̒̅͛͐͘͝͠E̷̬͇̼͚̯͓̔͛͌̍̕͝͝͠N̵̡͎̞̯͈̯̜̜͙͋͋̔͌̄̍͒͝E̷̢̡̢̢̢̛̛̻̳̹̪̦̓̇̋̐̽͝Ḏ̶̢͉͍͍͙͚̞̩̘͐̽̓́̽́̏́̚͝";
+        // === /joey
+        if (msg.startsWith("/joey")) {
+          const zalgo = "J̵͇̤̖̹̰̤̋O̶̧̠̮̗̐͗̋͊̀͋͋͝Ȩ̵̬̣̳̀̌̀̾̀̕͜Y̸̻̍̍͂G̶̛̯̤̜̣̾̒͛̈́͝ͅĆ̵̢͎̱̣̪̭̺̆̔͛̄ͅ ̵̞̗̜̭̽̆͐H̷̛͍͎̬͈̬̤̯̒̈̎A̵͓̭̙̣̝̝̗̒̑̈́̂̀͝ͅS̷̛͖̟̆́̓͘͘ ̴̧̤͍̩̑B̴̛͔͇̘͈̼̹̗͑̔̈̾̂̐̔E̴͍̝͚̍̄̏͝E̷̱̳͑̈́Ñ̵͖͚̹͕̱͈̺̫̃̃̌ ̷̦̰̝̳̙̯̅̽͛̒͐̇͜͝͝A̴̦͇̞͉̻͐̇W̷͓̣͚̊̍̃́͛̋͜Ä̶͇͕͖̰̳͕̀̎͜K̸͖͖͓͚̱̈̾͛̍̌̆̑Ę̴̨̞̪̅̄Ǹ̵̨̺̦͖͇̻̂͆̚ͅE̸̦͎͈͇͛Ḋ̴̬̺͝";
 
           broadcast({
             type: "system",
@@ -1122,7 +1122,7 @@ if (msg.startsWith("/eval ")) {
           broadcast({
             type: "chat",
             username: user.name,
-            message: user.name ===  'Max' ? `Hi, I'm Max and I love trucks and to you I say: ${applyEffect(user.name, msg)}` : applyEffect(user.name, msg),
+            message: applyEffect(user.name, msg),
             isAdmin: user.isAdmin,
             timestamp: ts,
             id,

@@ -4,7 +4,7 @@ const WebSocket = require("ws");
 const path = require("path");
 const { v4: uuidv4 } = require("uuid");
 
-const ADMIN_PASSWORD = "mydog";
+const ADMIN_PASSWORD = "ilikebatteries";
 
 const app = express();
 const server = http.createServer(app);
